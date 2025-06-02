@@ -3,7 +3,7 @@ import { useMaintenance } from "../contexts/MaintenanceContext";
 import MaintenanceList from "../components/Maintenance/MaintenanceList";
 import MaintenanceForm from "../components/Maintenance/MaintenanceForm";
 import { useAuth } from "../contexts/AuthContext";
-import { canViewMaintenance } from "../utils/roleUtils.js";
+import { canViewMaintenance } from "../utils/RoleUtils.js";
 
 export default function MaintenancePage() {
   const { maintenance, addMaintenance, updateMaintenance, deleteMaintenance } = useMaintenance();
