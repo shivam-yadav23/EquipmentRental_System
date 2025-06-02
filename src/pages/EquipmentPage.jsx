@@ -3,7 +3,7 @@ import { useEquipment } from "../contexts/EquipmentContext";
 import { useAuth } from "../contexts/AuthContext";
 import EquipmentList from "../components/Equipment/EquipmentList";
 import EquipmentForm from "../components/Equipment/EquipmentForm";
-import { canEditEquipment } from "../utils/roleUtils";
+import { canEditEquipment } from "../utils/roleUtils.js";
 
 export default function EquipmentPage() {
   const { addEquipment, updateEquipment, deleteEquipment } = useEquipment();
