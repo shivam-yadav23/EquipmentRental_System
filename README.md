@@ -42,6 +42,9 @@ A responsive React + Tailwind CSS dashboard for managing equipment inventory, re
 - **Dashboard:**
   - KPI cards: Total Equipment, Available vs Rented, Overdue Rentals, Upcoming Maintenance.
   - Visual charts (doughnut/bar) for quick insights.
+ 
+  - ![image](https://github.com/user-attachments/assets/984542ba-eea9-47d0-99de-0db7431a2c3d)
+
 
 - **Notification Center:**
   - In-app, dismissible notifications for key events.
